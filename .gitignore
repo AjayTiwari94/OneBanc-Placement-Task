@@ -1,29 +1,23 @@
-### IntelliJ IDEA ###
+# === Java Build Files ===
+*.class
+*.jar
+*.war
+*.ear
 out/
-!**/src/main/**/out/
-!**/src/test/**/out/
-
-### Eclipse ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
+target/
 bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
+# === IntelliJ IDEA ===
+.idea/
+*.iml
 
-### VS Code ###
+# === VS Code ===
 .vscode/
 
-### Mac OS ###
+# === OS-specific ===
 .DS_Store
+Thumbs.db
+
+# === Logs & temp ===
+*.log
+*.tmp
